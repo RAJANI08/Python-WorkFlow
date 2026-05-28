@@ -1,18 +1,4 @@
-pip install flask
-pip install flask_sqlalchemy
-pip install pymysql
-pip install cryptography
-
-create table manually first using
-
-mysql -u root -p
-
-enter mysql password:  
-
-CREATE DATABASE flask_db;
-SHOW DATABASES;
-EXIT;
-
-================================
-
-url : http://127.0.0.1:5000/api/
+flask
+flask_sqlalchemy
+pymysql
+cryptography
