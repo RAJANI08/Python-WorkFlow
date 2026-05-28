@@ -1,12 +1,12 @@
 # Python-WorkFlow
-1.Push code to GitHub → workflow starts automatically.
-2. Checks out your code.
-3. Installs Python 3.12.
-4. Restores/downloads cached pip packages (faster builds).
-5. Installs dependencies from requirements.txt.
-6. Runs main.py.
-7. Saves the output to output.txt.
-8. Uploads output.txt as an artifact that you can download from the workflow run.
+* Push code to GitHub → workflow starts automatically.
+* Checks out your code.
+* Installs Python 3.12.
+* Restores/downloads cached pip packages (faster builds).
+* Installs dependencies from requirements.txt.
+* Runs main.py.
+* Saves the output to output.txt.
+* Uploads output.txt as an artifact that you can download from the workflow run.
 
 # Cache vs Artifact in this Flow
 
