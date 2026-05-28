@@ -1,10 +1,2 @@
-from flask import Flask
+print("Flask application")
 
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    print("Flask application")
-
-if __name__ == "__main__":
-    app.run(debug=True)
